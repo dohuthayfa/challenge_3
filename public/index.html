@@ -3,3 +3,60 @@
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
 
 <script src="build/main.bundle.js"></script>
+
+<script>(express.static('public')  </script>
+
+<script src="react.development.js"></script>
+<script src="react-dom.development.js"></script>
+<script src="app.js"></script>
+
+
+
+<html>
+<head>
+  <h1> App</h1>
+  <meta charset="utf-8">
+  <title>Mocha Tests</title>
+
+
+  <! -- mocha --> 
+
+  <link rel="stylesheet" href="mocha/mocha.css" />
+  <script src="../assets/js/libs/jquery.js"></script>
+  <script src="mocha/mocha.js"></script>
+  <script>mocha.setup('bdd')</script>
+  <script src="test.foobar.js"></script>
+  <script>
+    $(function() {
+      mocha.run();
+    })
+  </script>
+
+
+  <! -- form--> 
+<form action='/checkout'> </form>
+
+<form action='/cart'> </form>
+
+<! -- buttons--> 
+<br>
+<button type="button" class="checkout"> </button>
+<br>
+<button name="checkout" type="submit"> </button>
+
+
+
+<! -- input --> 
+<br>
+<input name="checkout" type="submit"> </input>
+
+<! -- tags -->
+<a href="/checkout" name="checkout"> </a>
+
+
+
+</head>
+<body>
+  <div id="mocha"></div>
+</body>
+</html>
