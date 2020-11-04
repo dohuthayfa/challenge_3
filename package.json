@@ -1,0 +1,33 @@
+{
+  "name": "challenge_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "babel": "./node_modules/.bin/babel client --out-dir public --presets @babel/preset-react --source-maps inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dohuthayfa/challenge_3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dohuthayfa/challenge_3/issues"
+  },
+  "homepage": "https://github.com/dohuthayfa/challenge_3#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-install": "2.1.0",
+    "babel-preset-es2015": "^6.24.1",
+    "http-server": "^0.12.3"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-react": "^7.12.5"
+  }
+}
